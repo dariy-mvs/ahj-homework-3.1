@@ -1,0 +1,46 @@
+body {
+  color: #999;
+  background-color: rgb(221, 238, 240);
+}
+.information {
+  width: 95%;
+  max-width: 700px;
+  background-color: rgb(221, 235, 208);
+  border: 2px solid rgb(128, 148, 118);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+  color: rgb(85, 82, 82);
+}
+.field {
+  background-color: #fff;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.cell {
+  width: 25%;
+  height: 150px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.message {
+  position: absolute;
+  top: 100px;
+  left: calc(50% - 200px);
+  width: 400px;
+  background-color: rgb(247, 226, 226);
+  border: 2px solid rgb(123, 51, 51);
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
